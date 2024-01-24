@@ -10,7 +10,7 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 Bonus: Can you do this in one pass?
 """
 
-def two_sum(nums, k):
+def TwoSum(nums, k):
     num_dict = {}
     for num in nums:
         num_dict[num] = True
@@ -31,5 +31,5 @@ test_cases = [
 ]
 
 for nums, target in test_cases:
-    result = two_sum(nums, target)
+    result = TwoSum(nums, target)
     print(result)
